@@ -20,5 +20,5 @@ end
 
 
   # def index
-  #   respond_with Book.all
+  #   respond_with Concert.all
   # end

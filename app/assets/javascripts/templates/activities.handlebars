@@ -1,9 +1,15 @@
-<h1>Concerts</h1>
 
-<ul>
-  {{#each}}
-    <li>{{venue}} by {{city}}</li>
-  {{else}}
-    <li>There are no concerts.</li>
-  {{/each}}
-</ul>
+
+<center>
+  <div class="col-1-1 padding-lg">
+    <h1>Events</h1>
+    <ul>
+      {{#each}}
+        <li class="concert-design">{{title}} - {{venue}} in {{city}} {{state}}</li>
+      {{else}}
+        <li>There are no concerts.</li>
+      {{/each}}
+    </ul>
+  </div>
+
+</center>

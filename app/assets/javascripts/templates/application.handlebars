@@ -1,12 +1,25 @@
+<body>
+<div class="background-image">
 
 <div class="header col-1-1">
   <ul>
-    <li></li>
-    <li>{{link-to 'List activities' 'activities'}}</li>
-  </ul>
+    <li class="pull-left">{{link-to 'Home' 'index'}}&nbsp &nbsp </li>
+    <li class="pull-left">{{link-to 'Show' 'activities'}}</li>
+    <li class="pull-right"><form>
+      <input type="text" name="zipcode">
+      <button>Submit</button>
+    </form></li>
+    <li class="pull-right">Enter your Zip Code:&nbsp &nbsp  </li>
+    </ul>
 </div>
 
-
-
 {{outlet}}
+
+</div>
+
+<div class="logo">
+  <center><h2>CONCERT<br><span class="second-logo">match</span></h2></center>
+</div>
+
+</body>
 
