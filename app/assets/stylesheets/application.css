@@ -97,23 +97,50 @@ ul li {
   list-style-type: none;
 }
 
+.padding-top-sm {
+  padding-top: 0.5%;
+}
+
 
 /* BUTTON DESIGN */
 
+.myButton {
+  background-color: #a73f2d;
+  border:1px solid #241d13;
+  display: inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size: 10px;
+  font-weight:bold;
+  padding: 5px 18px;
+  text-decoration: none;
+  text-shadow:0px -1px 0px #7a2a1d;
+}
 
+.myButton:hover {
+  background-color:#b34332;
+}
+
+.myButton:active {
+  position:relative;
+  top:1px;
+}
 
 /* CONCERT DESIGN UL */
 
 .concert-design {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 
+.concert-design ul li {
+  font-size: 8px;
+}
 
 /*  COLORS */
 
 .border-grey {
-  border: 1px dotted gray;
+  border: 1px solid #1e1e1e;
   margin-left: 5%;
 }
 
