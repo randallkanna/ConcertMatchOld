@@ -2,3 +2,4 @@ ConcertMatch helps you find a local concert to attend.
 
 This app was created using Ember.js and Rails.
 
+Find out more on my personal site at RandallKanna.com
