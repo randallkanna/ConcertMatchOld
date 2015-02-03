@@ -19,8 +19,7 @@
   margin: 0px;
   height: 100%;
   color: white;
-    background-color: black;
-
+  background-color: black;
  }
 
 /* HEADER */
@@ -31,8 +30,6 @@
   height: 60px;
   color: white;
   position: fixed;
-/*  font-family: 'Oswald', sans-serif;
-  font-weight: 400;*/
   font-size: 13px;
   height: 8%;
   color: white;
@@ -44,31 +41,23 @@
   font-decoration: none;
 }
 
-ul li {
-  list-style-type: none;
-}
-
-
 /* LOGO */
 
-
-
 .logo {
-  padding-left: 0.5%;
-  margin: 0 auto;
+  padding-left: 1.5%;
   position: fixed;
   bottom: 0;
 }
 
 .logo h2 {
-  font-size: 70px;
+  font-size: 75px;
   color: white;
   line-height: 30px;
 }
 
 .second-logo {
   color: #E62E00;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 
@@ -76,9 +65,8 @@ ul li {
 /* BACKGROUND  */
 .background-image {
   background-image: url("https://farm3.staticflickr.com/2526/4149497419_bcf64ea273_o.jpg");
-  /*position: fixed;*/
   background-repeat: no-repeat;
-  min-height: 900px;
+  min-height: 1000px;
   min-width: 100%;
   max-width: 100%;
   left: 0;
@@ -90,17 +78,8 @@ ul li {
 }
 
 
-/*.white-background {
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  min-height: 100%;
-  position: fixed;
-}*/
 
-
-
-/* GEN */
+/* GENERAL */
 
 .pull-right {
   float: right;
@@ -114,22 +93,16 @@ ul li {
   padding: 5%;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 
 /* BUTTON DESIGN */
 
 
 
 /* CONCERT DESIGN UL */
-/*.concert-des ul {
-}
-
-.concert-des ul li {
-  color: black;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  border: 1px solid gray;
-}*/
 
 .concert-design {
   font-size: 20px;
@@ -137,5 +110,18 @@ ul li {
 }
 
 
-/* FOOOTER */
+/*  COLORS */
 
+.border-grey {
+  border: 1px dotted gray;
+  margin-left: 5%;
+}
+
+.black-ground {
+  background-color: black;
+  float: right;
+}
+
+.fontblack {
+  color: black;
+}

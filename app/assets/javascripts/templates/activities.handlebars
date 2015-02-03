@@ -2,14 +2,19 @@
 
 <center>
   <div class="col-1-1 padding-lg">
-    <h1>Events</h1>
-    <ul>
-      {{#each}}
-        <li class="concert-design">{{title}} - {{venue}} in {{city}} {{state}}</li>
-      {{else}}
-        <li>There are no concerts.</li>
-      {{/each}}
-    </ul>
+
+    <div class="col-5-12 black-ground border-grey">
+     <h1>Events</h1>
+      <ul>
+        {{#each}}
+          <li class="concert-design">{{title}} - {{venue}} in {{city}} {{state}}</li><br>
+        {{else}}
+          <li>There are no concerts.</li>
+        {{/each}}
+      </ul>
+
+
+    </div>
   </div>
 
 </center>
