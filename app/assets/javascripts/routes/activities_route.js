@@ -1,12 +1,13 @@
 Concertmatch.ActivitiesRoute = Ember.Route.extend({
   model: function() {
-     return this.store.find('activity');
+    return this.store.find('activity');
   }
 });
 
-// return Concertmatch.Activity.all();
+//
 
 // return this.store.find('activity');
+// return Concertmatch.Activity.all();
 
 // // Fake data:
 
