@@ -44,20 +44,20 @@
 /* LOGO */
 
 .logo {
-  padding-left: 1.5%;
-  position: fixed;
   bottom: 0;
+  position: fixed;
+  padding-left: 1.5%;
 }
 
 .logo h2 {
-  font-size: 75px;
+  font-size: 70px;
   color: white;
-  line-height: 30px;
+  line-height: 22px;
 }
 
 .second-logo {
   color: #E62E00;
-  font-size: 55px;
+  font-size: 40px;
 }
 
 
@@ -66,7 +66,7 @@
 .background-image {
   background-image: url("https://farm3.staticflickr.com/2526/4149497419_bcf64ea273_o.jpg");
   background-repeat: no-repeat;
-  min-height: 1000px;
+  min-height: 650px;
   min-width: 100%;
   max-width: 100%;
   left: 0;
@@ -77,6 +77,12 @@
   background-size: cover;
 }
 
+
+/* HEADER */
+
+h1 {
+  font-family: Arial;
+}
 
 
 /* GENERAL */
@@ -101,6 +107,20 @@ ul li {
   padding-top: 0.5%;
 }
 
+hr {
+  border-top: 1px dotted white;
+  background-color: black;
+  height: 1px;
+  width: 300px;
+}
+
+.padding-left-md {
+  padding-left: 10%;
+}
+
+.margin-left-md {
+  margin-left: 10%;
+}
 
 /* BUTTON DESIGN */
 
@@ -140,8 +160,8 @@ ul li {
 /*  COLORS */
 
 .border-grey {
-  border: 1px solid #1e1e1e;
-  margin-left: 5%;
+  border: 1px dotted #1e1e1e;
+  /* margin-left: 5%;*/
 }
 
 .black-ground {

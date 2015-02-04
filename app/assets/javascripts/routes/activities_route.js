@@ -5,6 +5,7 @@ Concertmatch.ActivitiesRoute = Ember.Route.extend({
 });
 
 
+
 // // Fake data:
 
  // model: function() {

@@ -4,6 +4,9 @@ Concertmatch.Activity = DS.Model.extend({
   activity:  DS.hasMany('activity')
 });
 
+
+
+
   // info: DS.attr('string'),
   // events: DS.attr('string'),
   // artists: DS.attr('string'),
