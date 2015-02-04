@@ -1,8 +1,10 @@
 Concertmatch.ActivitiesRoute = Ember.Route.extend({
   model: function() {
-    return Concertmatch.Activity.all();
+     return this.store.find('activity');
   }
 });
+
+// return Concertmatch.Activity.all();
 
 // return this.store.find('activity');
 
