@@ -15,7 +15,7 @@ Concertmatch.Activity.reopenClass({
   all: function(){
     this.allActivities = [];
     $.ajax({
-      url: 'http://api.jambase.com/events?zipCode=95128&page=0&api_key==rct6rka5zncmwnvz38srk36y',
+      url: 'http://api.jambase.com/events?zipCode=95128&page=0&api_key=rct6rka5zncmwnvz38srk36y&o=json',
       dataType: 'jsonp',
       context: this,
       success: function(response){
