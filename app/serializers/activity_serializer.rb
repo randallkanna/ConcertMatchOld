@@ -1,3 +1,3 @@
 class ActivitySerializer < ActiveModel::Serializer
-  attributes :id, :city, :venue
+  attributes :artists, :address, :city, :country, :statecode
 end

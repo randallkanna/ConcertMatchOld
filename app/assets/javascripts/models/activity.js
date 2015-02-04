@@ -6,5 +6,4 @@ Concertmatch.Activity = DS.Model.extend({
   city: DS.attr('string'),
   country: DS.attr('string'),
   statecode: DS.attr('string'),
-  name: DS.attr('string'),
 });

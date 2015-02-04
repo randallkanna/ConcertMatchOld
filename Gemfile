@@ -23,6 +23,8 @@ gem 'httparty'
 gem "ember-rails", github: "emberjs/ember-rails"
 
 
+gem 'responders', '~> 2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
