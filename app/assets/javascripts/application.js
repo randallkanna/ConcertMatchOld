@@ -6,8 +6,10 @@
 //= require_self
 //= require ./concertmatch
 
-// for more details see: http://emberjs.com/guides/application/
 Concertmatch = Ember.Application.create();
+
+// http://api.jambase.com/events?zipCode=95128&page=0&api_key=rct6rka5zncmwnvz38srk36y&o=json
+
 
 Concertmatch.Activity = Ember.Object.extend();
 Concertmatch.Activity.reopenClass({
@@ -15,7 +17,7 @@ Concertmatch.Activity.reopenClass({
   all: function(){
     this.allActivities = [];
     $.ajax({
-      url: 'http://api.jambase.com/events?zipCode=95128&page=0&api_key=rct6rka5zncmwnvz38srk36y&o=json',
+      url: 'http://api.gigatools.com/city.json?cities[]=Sacramento&api_key=cabe57826159cdde31',
       dataType: 'jsonp',
       context: this,
       success: function(response){

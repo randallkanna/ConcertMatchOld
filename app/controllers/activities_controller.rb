@@ -11,14 +11,4 @@ class ActivitiesController < ApplicationController
     render json: self.class.get("/events?zipCode=" + location + "&page=0&api_key=" + api_key)
   end
 
-  # def self.random_concert(id)
-
-  # end
 end
-
-
-
-
-  # def index
-  #   respond_with Concert.all
-  # end
